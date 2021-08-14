@@ -48,3 +48,6 @@ Each new game exists in an isolated Google Cloud project nested below a folder t
  
 ## Executive statement
 Our last game was the first time we used Google Cloud, and it was a tremendous success. We were able to analyze player behavior and game telemetry in ways that we never could before. This success allowed us to bet on a full migration to the cloud and to start building all-new games using cloud-native design principles. Our new game is our most ambitious to date and will open up doors for us to support more gaming platforms beyond mobile. Latency is our top priority, although cost management is the next most important challenge. As with our first cloud-based game, we have grown to expect the cloud to enable advanced analytics capabilities so we can rapidly iterate on our deployments of bug fixes and new functionality.
+
+
+![alt text](https://github.com/khelmric/gcp_case_study_mountkirk/blob/main/Mountkirk_Diagram.png?raw=true)
