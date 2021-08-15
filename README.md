@@ -42,7 +42,7 @@ Each new game exists in an isolated Google Cloud project nested below a folder t
 ## Technical requirements
 * Dynamically scale based on game activity ***--> GKE***
 * Publish scoring data on near real-time global leaderboard ***--> Cloud Datastore***
-* Store game activity logs in structured files for future analysis ***--> Bigtable***
+* Store game activity logs in structured files for future analysis ***--> Logging Sink, BigQuery***
 * Use GPU processing to render graphics server-side for multi-platform support ***--> (https://cloud.google.com/architecture/orchestrating-gpu-accelerated-streaming-apps-using-webrtc)***
 * Support eventually migration of legacy games to this new platform
  
